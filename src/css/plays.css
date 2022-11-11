@@ -1,0 +1,38 @@
+.game-section{
+    margin-bottom: 1rem;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: 3px solid #99AACA;
+    overflow:hidden;  
+}
+
+.game-title, .game-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game-title{
+    margin-bottom: 1rem; 
+    color: #98E3C4;
+}
+
+.play-button{
+    margin-top: 1rem; 
+    background-color: #F61B55;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    width:fit-content;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-weight: 500;
+}
+.play-button:hover{
+    background-color: #c9144a;
+}

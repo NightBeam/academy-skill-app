@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#EEF1F6;
+}
+
+.main-header{
+    background-color: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*Links*/
+
+.main-link{
+    color:#ABC8FF;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.main-link::before{
+    content: '';
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #ABC8FF;    
+    transition: 0.3s;
+    transform: scaleX(0);
+}
+.main-link:hover::before{
+    transform: scaleX(1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+    padding: 10px 0px;
+}
+.active{
+    color:#99AACA
+}
+.active::before{
+    content: '';
+    bottom: -5px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #99AACA;    
+    transition: 0.3s;
+    transform: scaleX(0);
+}
+.active:hover::before{
+    transform: scaleX(1);
+}
+/*---Links---*/
+main{
+    margin-top:30px;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.user-link{
+    padding-right: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+}
+.user-link img{
+    width: 3em;
+}
+.site-icon img{
+    width: 3em;
+    padding-left: 1em;
+}

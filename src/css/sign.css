@@ -1,0 +1,95 @@
+/*signin*/
+.sign-in-area{
+    display: flex;
+    height: 100vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-form{
+    height: 50%;
+    padding: 3vw;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sign-in-field-block{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    justify-content: space-evenly;
+}
+.sign-field{
+    padding: 5px;
+    border-radius: 3vw;
+    border: none;
+}
+.nick{
+    outline: 3px solid rgb(40, 192, 47);
+}
+.password{
+    outline: 3px solid rgb(40, 149, 192);
+}
+.sign-in-buttons{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    justify-content: space-evenly;
+}
+.sign-in-button{
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 3vw;
+    padding: 5px 10px; 
+    border: none; 
+    color:white;
+    background-color: #F61B55;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.2s;
+}
+.link-from-sing-in-to-up{
+    color: white;
+    background-color: #F61B55;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3vw;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 5px 10px; 
+    text-decoration: none;
+    text-align: center;
+    transition: 0.2s;
+}
+.link-from-sing-in-to-up:hover, .sign-in-button:hover{
+    background-color: #c9144a;
+}
+
+
+/*signup*/
+.sign-up-area{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-form{
+    height: 70%;
+    padding: 3vw 5vw;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sign-up-field-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40%;
+}
+.email{
+    outline: 3px solid #F61B55;
+}

@@ -1,0 +1,25 @@
+.news-section{
+    margin-bottom: 1rem;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 15px;
+    border: 3px solid #99AACA;
+    overflow:hidden;  
+}
+
+.news-title, .news-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.news-title{
+    color: #98E3C4;
+}
+.news-text{
+    color: #ABC8FF;
+    font-weight:700;
+    font-size: 18px;
+}
+
